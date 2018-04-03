@@ -1,2 +1,7 @@
-# Unity3d-HW
-Homework for Unity3d
+# Unity3D
+
+作业放在对应文件名的文件夹里。
+
+image文件夹放图片，方便写markdown
+
+如有演示视频，也放在对应作业的文件夹中。
