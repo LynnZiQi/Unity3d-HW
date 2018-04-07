@@ -81,7 +81,7 @@
 
  - **将游戏对象做成预制**，其中Devil用Sphere表示，Priest用Cube表示。为了统计方便，分别给它们加上"Devil"和"Priest"的Tag.
 
-![这里写图片描述](https://img-blog.csdn.net/2018040111503257?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzMyMzM1MDk1/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+![这里写图片描述](https://raw.githubusercontent.com/LynnZiQi/Unity3d-HW/master/image/2018040111503257.jpg)
  
  - **一些重要的函数说明**
  只是大概逻辑，和类之间联系部分，条件语句等基本省略。
