@@ -11,7 +11,7 @@
  6. ......
  
 
-其实上一次实现的时候参考的[这篇博客](https://blog.csdn.net/H12590400327/article/details/70037805)已经符合本次要求，只是把控制类、动作管理写在一个脚本，显得代码比较冗长，所以我只是略微修改了一下上周的代码，把每一个类分别用一个脚本来实现，便于修改。UserGUI没有什么变化，优化了一下让提示框固定在屏幕中心，没有用绝对代码。
+其实上一次实现的时候参考的[这篇博客](https://blog.csdn.net/H12590400327/article/details/70037805)已经符合本次要求，只是把控制类、动作管理写在一个脚本，显得代码比较冗长，所以我只是略微修改了一下上周的代码，把每一个类分别用一个脚本来实现，便于修改。UserGUI没有什么变化，优化了一下让提示框固定在屏幕中心，没有用绝对位置。
 
 项目代码结构如下：
 
@@ -20,7 +20,7 @@
 
 **遇到的bug及问题：**
 
- 1. 一开始只知道按照课件把各个类分写成不同的脚本，然后按照上一次挂脚本的方式——Camera挂UserGUI，Main挂SenceController和SSActionManager。运行老是提示“Object reference not set to an instance of an object”
+ 1. 一开始只知道按照课件把各个类分写成不同的脚本，然后按照上一次挂脚本的方式——camera挂UserGUI，Main挂SenceController和SSActionManager。运行老是提示“Object reference not set to an instance of an object”
 ![Object reference not set to an instance of an object](https://raw.githubusercontent.com/LynnZiQi/Unity3d-HW/master/image/20180407152110942.jpg)
   老老实实用debug.log的方法看是哪里出了问题，发现是actionManager没有实例化，在actionManager = GetComponent<\CCActionManager>() as CCActionManager;出现了问题。搜索了一下GetComponent相关，需要把CCActionManager也挂在Main上。因为上次这些Manager都在一个脚本上，就没有发现问题。挂上去之后成功实例化actionManager。
 
