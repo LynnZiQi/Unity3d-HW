@@ -1,4 +1,4 @@
-
+﻿
 **作业内容**
 
 **1、简答题**
@@ -19,9 +19,9 @@ Asset是存储在硬盘上的文件，保存在Unity项目的Assets文件夹内�
 该案例是Unity官方Example，Car
 由图可知，资源的目录结构包括脚本、声音、材料等等，对象则是具体的参与游戏互动的东西。
 
-![Assets](https://raw.githubusercontent.com/LynnZiQi/Unity3D/master/image/QQ截图20180322235333.jpg)
+![Assets](https://raw.githubusercontent.com/LynnZiQi/Unity3d-HW/master/image/QQ截图20180322235333.jpg)
 
-![对象树](https://raw.githubusercontent.com/LynnZiQi/Unity3D/master/image/QQ截图20180322235411.jpg)
+![对象树](https://raw.githubusercontent.com/LynnZiQi/Unity3d-HW/master/image/QQ截图20180322235411.jpg)
 
 ----------
 
@@ -82,9 +82,9 @@ void OnGUI()
 ```
 实验结果截图：
 
-![](https://raw.githubusercontent.com/LynnZiQi/Unity3D/master/image/常用.jpg)
+![](https://raw.githubusercontent.com/LynnZiQi/Unity3d-HW/master/image/常用.jpg)
 
-![](https://raw.githubusercontent.com/LynnZiQi/Unity3D/master/image/常用2.jpg)
+![](https://raw.githubusercontent.com/LynnZiQi/Unity3d-HW/master/image/常用2.jpg)
 
 结果分析：
 最先执行的方法是Awake，这是生命周期的开始。当前脚本处于可用状态，会顺序执行OnEnable，如果此时Start方法没被执行，则执行一次。然后就是更新的相关操作，先是Update,然后再FixUpdate，最后LateUpdate。“如果后面写了Reset，则会又回到Update，在这4个事件间可以进行循环流动。”再向后，就进入渲染模块。此时会有GUI相关，执行OnGUI，最后，结束脚本，OnDisable.
@@ -199,7 +199,7 @@ void Start()
 ```
 结果截图：
 
-![](https://raw.githubusercontent.com/LynnZiQi/Unity3D/master/image/find.jpg)
+![](https://raw.githubusercontent.com/LynnZiQi/Unity3d-HW/master/image/find.jpg)
 
 2.添加子对象
 
@@ -294,7 +294,7 @@ public class NewBehaviourScript1 : MonoBehaviour
 
 结果截图：
 
-![](https://raw.githubusercontent.com/LynnZiQi/Unity3D/master/image/QQ截图20180324154240.jpg)
+![](https://raw.githubusercontent.com/LynnZiQi/Unity3d-HW/master/image/QQ截图20180324154240.jpg)
 
 
  **尝试解释组合模式（Composite Pattern / 一种设计模式）。使用** **BroadcastMessage() 方法**
@@ -348,7 +348,7 @@ public class Table : MonoBehaviour {
 
 利用预设生成的Table进行实验，因此Table有四个子对象。
 
-![](https://raw.githubusercontent.com/LynnZiQi/Unity3D/master/image/Message.jpg)
+![](https://raw.githubusercontent.com/LynnZiQi/Unity3d-HW/master/image/Message.jpg)
 
 ----------
 
@@ -366,19 +366,19 @@ public class Table : MonoBehaviour {
 
 初始界面：
 
-![](https://raw.githubusercontent.com/LynnZiQi/Unity3D/master/image/1.jpg)
+![](https://raw.githubusercontent.com/LynnZiQi/Unity3d-HW/master/image/1.jpg)
 
 Xwin：
 
-![](https://raw.githubusercontent.com/LynnZiQi/Unity3D/master/image/2.jpg)
+![](https://raw.githubusercontent.com/LynnZiQi/Unity3d-HW/master/image/2.jpg)
 
 Owin:
 
-![](https://raw.githubusercontent.com/LynnZiQi/Unity3D/master/image/3.jpg)
+![](https://raw.githubusercontent.com/LynnZiQi/Unity3d-HW/master/image/3.jpg)
 
 平局：
 
-![](https://raw.githubusercontent.com/LynnZiQi/Unity3D/master/image/4.jpg)
+![](https://raw.githubusercontent.com/LynnZiQi/Unity3d-HW/master/image/4.jpg)
 
 
 源代码参见HW1/NewBehaviourScript.cs,视频文件已压缩，见HW1/Video
