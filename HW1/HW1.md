@@ -146,7 +146,7 @@ Component菜单包括
 
 UML图：
 
-![](https://raw.githubusercontent.com/LynnZiQi/Unity3D/master/image/UML.jpg)
+![](https://raw.githubusercontent.com/LynnZiQi/Unity3d-HW/master/image/UML.jpg)
 
 
 ----------
