@@ -18,6 +18,6 @@ HW3/
        Priest and Devil/
                ReadMe.md
                Script
-               vedio
+               vedio
                
        游戏对象使用总结.md
