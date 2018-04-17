@@ -17,9 +17,9 @@ HW4/
               |__RoundController.cs
               |__UserGUI.cs
               
-[CSDN博客](https://blog.csdn.net/qq_32335095/article/details/79968860)
+[CSDN博客](http://v.youku.com/v_show/id_XMzU0NDY3NDY5Mg==.html?spm=a2h3j.8428770.3416059.1)
        
-[游戏视频链接,密码1111](http://v.youku.com/v_show/id_XMzU0MzM4MTI4NA==.html?spm=a2h3j.8428770.3416059.1)
+[游戏视频链接,密码1111](http://vm.tudou.com/video/list)
 
 <hr>
 看了看其他同学的游戏界面，发现大家都用了天空盒，我没有考虑到这点，下次改进。
