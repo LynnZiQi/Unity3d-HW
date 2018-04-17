@@ -1,11 +1,11 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class UserGUI : MonoBehaviour {
-    private DiskFactory factory;
-    private ScoreRecorder recorder;
-    private RoundController controller;
+   // private DiskFactory factory;
+    //private ScoreRecorder recorder;
+   // private RoundController controller;
     // Use this for initialization
     void Start () {
 		
