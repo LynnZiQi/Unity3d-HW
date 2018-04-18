@@ -1,7 +1,4 @@
 
-**
-*
-
 文件结构如下：
 
 HW4/
@@ -16,7 +13,7 @@ HW4/
               |__DiskFactory.cs
               |__ScoreRecorder.cs
               |__RoundController.cs
-              |__Singleton.cs
+              |__Singleton.cs
               
 [CSDN博客](https://blog.csdn.net/qq_32335095/article/details/79968860)
        
