@@ -6,7 +6,7 @@ HW9/
        ReadMe.md
        
        Scripts //脚本文件夹
-       Scene //三个场景
+       Scenes //三个场景
        
        
 
