@@ -1,4 +1,5 @@
 
+
 文件结构如下：
 
 HW10/
@@ -20,6 +21,7 @@ HW10/
               
 
 [视频密码1111](https://v.youku.com/v_show/id_XMzY4NjE3MDM1Ng==.html?spm=a2h3j.8428770.3416059.1)
+（xbox只能录一个窗口）
 
 这次作业基本上就是按照[Multiplayer Networking官方文档](https://unity3d.com/cn/learn/tutorials/topics/multiplayer-networking/setting-player-prefab?playlist=29690)写的，
 因此不写博客了。
